@@ -32,7 +32,7 @@ Features:
 
 ### Usage
 
-#### Quickly
+#### Quickly using GitHub Pages
 
 - Fork the repository.
 - Click the `settings` option above.
@@ -45,6 +45,18 @@ Features:
 - Open `https://YOUR_GITHUB_USERNAME.github.io/online-resume` in your browser.
 - Now you can see the resume page.
 - Edit the `_data/data.yml` file directly to update your resume.
+
+#### Local
+
+- Install [RVM][RVM] (Ruby Version Manager)
+- Install Ruby with RVM: `rvm install ruby-3.3.1`
+- Source RVM if necessary: `source ~/.rvm/scripts/rvm`
+- Install [Jekyll][Jekyll]: `gem install jekyll bundler`
+
+- `git clone https://github.com/nejci/cv.git`
+- `cd cv`
+- `bundle install`
+- `jekyll serve`
 
 #### Customization
 
@@ -79,3 +91,5 @@ You can read and follow [Cloudflare Pages][Cloudflare Pages], [Vercel][Vercel] d
 [Cloudflare Pages]: https://developers.cloudflare.com/pages/framework-guides/deploy-a-jekyll-site/
 [Vercel]: https://vercel.com/guides/deploying-jekyll-with-vercel
 [Other Version]: https://github.com/tarrex/hugo-theme-online-resume
+[RVM]: https://rvm.io
+[Jekyll]: https://jekyllrb.com
