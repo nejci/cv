@@ -1,5 +1,4 @@
 /* Extra small devices (phones, less than 768px) */
-@use 'sass:math';
 
 @media only screen and (max-width: 767px) {
   body {
@@ -8,7 +7,7 @@
 
   .wrapper {
     margin: 0;
-    padding: math.div($spacing-unit, 2);
+    padding: calc($spacing-unit / 2);
     box-shadow: none;
 
     section {
