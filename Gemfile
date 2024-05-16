@@ -10,3 +10,7 @@ source "https://rubygems.org"
 gem "jekyll"
 
 gem "webrick", group: :development
+
+gem "csv"
+gem "base64"
+gem "bigdecimal"
