@@ -1,20 +1,20 @@
 basic:
-  name: Foo Bar                      # name
-  title: Backend Developer           # job title
+  name: Nejc Ilc                      # name
+  title: Docent računalništva in informatike           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
 
 contact:
   # meta
-  location: Beijing, China # location
-  email: me@example.com    # email address
-  phone: +86-111-2222-3333 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
+  location: Ribnica, Slovenija # location
+  email: nejc.ilc@gmail.com    # email address
+  phone: +386 31 402800 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website: fri.uni-lj.si/sl/o-fakulteti/osebje/nejc-ilc     # site URL without schema, like example.com, will automatically prepand "https://"
 
-  gender:                  # gender or pronoun
-  birthday:                # birthday
-  nationality:             # nationality
+  gender:          moški        # gender or pronoun
+  birthday:        22. januar 1986        # birthday
+  nationality:     Slovensko        # nationality
   visa:                    # passport visa
   drivinglicense:          # driving licence
 
@@ -28,8 +28,8 @@ contact:
   threema:                 # userid            | https://threema.id/userid
 
   # programmer
-  github:                  # username          | https://github.com/username
-  gitlab:                  # username          | https://gitlab.com/username
+  github:                nejci  # username          | https://github.com/username
+  gitlab:                nejci  # username          | https://gitlab.com/username
   bitbucket:               # username          | https://bitbucket.com/username
   stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
   leetcode:                # username          | https://leetcode.com/username
@@ -39,10 +39,10 @@ contact:
   tryhackme:               # username          | https://tryhackme.com/p/username
 
   # academic
-  googlescholar:           # username          | https://scholar.google.com/citations?user=username
-  researchgate:            # username          | https://www.researchgate.net/profile/username
+  googlescholar:         QWd8p8EAAAAJ  # username          | https://scholar.google.com/citations?user=username
+  researchgate:         Nejc-Ilc   # username          | https://www.researchgate.net/profile/username
   kaggle:                  # username          | https://www.kaggle.com/username
-  orcid:                   # id                | https://orcid.org/id
+  orcid:                  0000-0002-3866-6751 # id                | https://orcid.org/id
   figshare:                # name/id           | https://figshare.com/authors/name/id
 
   # writer
@@ -59,7 +59,7 @@ contact:
   artstation:              # username          | https://www.artstation.com/username
 
   # other cv
-  linkedin:                # username          | https://linkedin.com/in/username
+  linkedin:              nejc-ilc  # username          | https://linkedin.com/in/username
   indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
   xing:                    # username          | https://www.xing.com/profile/username
   fiverr:                  # username          | https://www.fiverr.com/username
@@ -71,7 +71,7 @@ contact:
   instagram:               # username          | https://instagram.com/username
   unsplash:                # username          | https://unsplash.com/@username
   _500px:                  # username          | https://500px.com/p/username
-  youtube:                 # username          | https://www.youtube.com/@username
+  youtube:               nejcilc  # username          | https://www.youtube.com/@username
   tiktok:                  # username          | https://www.tiktok.com/@username
   quora:                   # username          | https://www.quora.com/profile/username
   zhihu:                   # username          | https://www.zhihu.com/people/username
@@ -81,11 +81,32 @@ contact:
 profile:
   show: true
   order: 1
-  title: Profile
+  title: O meni
+  columns: true
   description: |
-    The profile section in a resume is a brief summary of the applicant's skills, qualifications, and experience. The purpose of this section is to provide a snapshot of the applicant's professional background and highlight their most relevant accomplishments and strengths. It may include information such as the applicant's career objectives, years of experience, areas of expertise, and key achievements.
+    <span class="badge">Raketa</span> mi pravi moj najboljši prijatelj. Zlasti ko kaj naredim, preden pomislim.
+    
+    <span class="badge">Mr. Funny</span> Pred leti mi je žena podarila obesek za ključe s književnim likom [Mr. Funny](https://en.m.wikipedia.org/wiki/List_of_Mr._Men#Mr._Funny). Bo že vedela.
 
-    A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.
+    <span class="badge">Oči</span> me kliče četverica mladih, s katerimi se tako zelo rad igram in delam.
+
+    <span class="badge">Ustvarjalna veverica</span> je ime, ki so mi ga nadeli skavtski prijatelji vročega poletja sredi delovne akcije nekje v Bosni in Hercegovini. Obožujem ustvarjanje, še posebej s tipkovnico in miško.
+
+    <span class="badge">Ledolomilec</span> Rad se rokujem z neznanci in objemam s prijatelji. Uživam v dobri družbi in vem, da osrečujoči odnosi niso stvar naključja.
+    
+    <span class="badge">Učenec</span> bom celo življenje in komaj čakam, da se kaj novega naučim. Spletne tehnologije v tem pogledu nikoli ne razočarajo.
+
+    <span class="badge">Mentor</span> diplomantom na fakulteti ali pa udeležencem otroškega poletnega tabora. Osrečuje me, če lahko druge navdušim in opolnomočim, da razvijejo svoje talente.
+
+    <span class="badge">Voditelj</span> je vloga, s katero se spogledujeva od najstniških let. Bil sem voditelj mladinskih skupin v župniji in uril predragocene mehke veščine kot skavtski voditelj. Bil sem sovoditelj univerzitetnega tekmovanja v mobilni robotiki Robo liga FRI. Imam izkušnje vodenja projektov na evropski in državni ravni. In da, vodil sem tudi rokovski bend in lokalno društvo.
+
+    <span class="badge">Profesor</span> Od kar vem zase, z veseljem in radostjo razlagam zapletene koncepte na enostaven način. Včasih tudi obratno. Imam 15 let delovnih izkušenj v visokem šolstvu.
+
+    <span class="badge">Raziskovalec</span> Zavzeto iščem odgovore. Pogosto pa tudi vprašanja. V otroštvu sem najraje bral enciklopedije, sedaj pa se identificiram kot znanstvenik. Zanimajo me predvsem metode nenadzorovanega strojnega učenje, vzporedne računalniške arhitekture, industrijska avtomatizacija, simulacije in bio-/kemoinformatika.
+  
+    <span class="badge">Programer</span>
+    algoritmov umetne inteligence, skript za superračunalniško okolje, industrijskih računalnikov, digitalnih sistemov FPGA, 3D simulatorjev, spletnih aplikacij in odprtokodnih orodij za bio-/kemoinformatiko.
+
 
 experience:
   show: true
