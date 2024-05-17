@@ -102,7 +102,7 @@ profile:
 
     <span class="badge">Profesor</span> Od kar vem zase, z veseljem in radostjo razlagam zapletene koncepte na enostaven način. Včasih tudi obratno. Imam 15 let delovnih izkušenj v visokem šolstvu.
 
-    <span class="badge">Raziskovalec</span> Zavzeto iščem odgovore. Pogosto pa tudi vprašanja. V otroštvu sem najraje bral enciklopedije, sedaj pa se identificiram kot znanstvenik. Zanimajo me predvsem metode nenadzorovanega strojnega učenje, vzporedne računalniške arhitekture, industrijska avtomatizacija, simulacije in bio-/kemoinformatika.
+    <span class="badge">Raziskovalec</span> Zavzeto iščem odgovore. Pogosto pa tudi vprašanja. V otroštvu sem najraje bral enciklopedije, sedaj pa se identificiram kot znanstvenik. Zanimajo me predvsem metode nenadzorovanega strojnega učenja, vzporedne računalniške arhitekture, industrijska avtomatizacija, simulacije in bio-/kemoinformatika.
   
     <span class="badge">Programer</span>
     algoritmov umetne inteligence, skript za superračunalniško okolje, industrijskih računalnikov, digitalnih sistemov FPGA, 3D simulatorjev, spletnih aplikacij in odprtokodnih orodij za bio-/kemoinformatiko.
@@ -111,38 +111,97 @@ profile:
 experience:
   show: true
   order: 2
-  title: Experiences
+  title: Delovne izkušnje
   description: |
-    The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
+    
 
   items:
-    - company: Second Company
-      link: '#'
-      tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
-      location: Beijing
+    - company: Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
+      link: 'https://www.fri.uni-lj.si'
+      tags: poln delovni čas
+      date: april 2021 - sedaj
+      role: Docent
+      location: Ljubljana
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        + Priprava in izvedba predavanj pri predmetih: *Procesna avtomatika*, *Digitalno načrtovanje* in *Osnove programiranja*
+        + Znanstveno-raziskovalna dejavnost (umetna inteligenca, vzporedno računanje, bio-/kemoinformatika)
+        + Mentorstvo študentom na zaključnih delih in delovni praksi
+        + Pridobivanje in vodenje projektov (*Projektno delo za pridobitev praktičnih izkušenj*, *Nacionalni kompetenčni centri v okviru EuroHPC Faza 2*)
+        + Vodenje univerzitetnega tekmovanja v mobilni robotiki "Robo liga FRI"
+        + Vodenje razvijalske ekipe odprtokodnega orodja CmDock
 
-    - company: First Company
-      link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
-      role: Backend Developer
-      location: Beijing
+    - company: Socialna akademija
+      link: 'https://socialna-akademija.si'
+      tags: pogodbeno delo
+      date: april 2024 - sedaj
+      role: Spletni razvijalec
+      location: Ljubljana
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        + Izdelava spletne aplikacije
+        + Vodenje razvijalske ekipe
+
+    - company: Inštitut Sofos
+      link: 'https://www.sofos.si'
+      tags: pogodbeno delo
+      date: maj 2017 - avgust 2017
+      role: Spletni razvijalec
+      location: Ljubljana
+      description: |
+        + Izdelava interaktivnega spletnega vprašalnika
+        + Izdelava prijavnega obrazca na spletnem portalu
+        + Nudenje podpore pri urejanju spletnega portala (Wordpress)
+
+    - company: MLC Ljubljana
+      link: 'https://www.mlcljubljana.com'
+      tags: pogodbeno delo
+      date: januar 2017 - oktober 2018
+      role: Spletni razvijalec
+      location: Ljubljana
+      description: |
+        + Izdelava interaktivnega spletnega vprašalnika
+        + Grafično oblikovanje spletnih vsebin
+        + Upravljanje spletnega strežnika
+
+    - company: Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
+      link: 'https://www.fri.uni-lj.si'
+      tags: poln delovni čas
+      date: februar 2009 - april 2021
+      role: Asistent
+      location: Ljubljana
+      description: |
+        + Samostojno vodenje laboratorijskih vaj pri predmetih: *Logične strukture in sistemi I in II*, *Procesna informatika / avtomatika*, *Računalniško vodenje procesov*, *Računalniški sistemi*, *Arhitektura računalniških sistemov*, *Sistemska programska oprema*, *Programski jezik C*, *Teorija informacij in sistemov*, *Uporaba IKT v naravoslovju in tehniki*.
+        + Ustvarjanje učnih gradiv
+        + Izdelava učnih sistemov in simulacijskega okolja za učenje konceptov industrijske avtomatike
+        + Znanstveno-raziskovalna dejavnost na področju strojnega učenja in umetne inteligence
+        + Recenzentsko delo v mednarodnih revijah
+        + Opravljanje obveznosti doktorskega študija
+        + Gostujoči raziskovalec na Univerzi v Banja Luki, BiH
+        + Sodelovanje pri izvedbi poletnih šol mobilne robotike
+        + Vodenje univerzitetnega tekmovanja v mobilni robotiki "Robo liga FRI"
+        + Član organizacijskih in programskih odborov mednarodnih znanstvenih konferenc s področja strojnega učenja (ICANNGA'11) in izobraževanja (IEEE EDUCON'20)
+        + Sodelovanje pri odprtokodnih projektih
+
+    - company: Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
+      link: 'https://www.fri.uni-lj.si'
+      tags: študentsko delo
+      date: oktober 2007 - januar 2009
+      role: Demonstrator
+      location: Ljubljana
+      description: |
+        + Pomoč asistentom pri predmetih *Metode mehkega računanja*, *Logične strukture in sistemi I*
+        + Delo s študenti, nudenje dodatne razlage na laboratorijskih vajah
+        + Sodelovanje pri pripravi učnih gradiv
+        + Raziskovalno delo v laboratoriju: razvoj algoritmov strojnega učenja
 
 project:
   show: true
   order: 3
   title: Projects
   description: |
+    TODO med projekte dodaj: 
+      - projekt s Celtro (imaš objavo na konferenci)
+      - Lukčeva domačija Escape room (ali bi dal to tudi pod delovne izkušnje) 
+
     The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
 
     In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
@@ -221,110 +280,191 @@ skill:
 education:
   show: true
   order: 5
-  title: Education
-  description: |
-    The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
-
-    In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
+  title: Izobrazba
+  description:
 
   items:
-    - institution: Example University
-      link: '#'
-      date: 2015 - 2018
-      major: Machine Learning
-      degree: Master
+    - institution: Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
+      link: 'https://www.fri.uni-lj.si'
+      date: 2009 - 2016
+      major: Računalništvo in informatika
+      degree: Doktorat znanosti
       description: |
-        Additional information for this institution.
-        + First
-        + Second
+        Disertacija [*Razvrščanje z uporabo uteženega ansambla*](https://repozitorij.uni-lj.si/Dokument.php?id=90006&lang=eng)
+        
+        Mentor: prof. dr. Andrej Dobnikar
 
-    - institution: Example University
-      link:
-      date: 2011 - 2015
-      major: Computer Science
-      degree: Bachelor
+        Povprečna ocena izpitov: 10
+
+    - institution: Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
+      link: 'https://www.fri.uni-lj.si'
+      date: 2004 - 2009
+      major: Računalništvo in informatika
+      degree: Univerzitetni diplomirani inženir
       description: |
-        Additional information for this institution.
-        + First
-        + Second
+        Diploma [*Primerjava metod za razvrščanje vzorcev v gruče*](http://eprints.fri.uni-lj.si/795/1/Ilc_N..pdf)
+
+        Mentor: prof. dr. Andrej Dobnikar
+
+        Povprečna ocena izpitov: 9,857
+
+        Diplomiral z posebnim priznanjem dekana za odlični končni uspeh.
+
+    - institution: Gimnazija Kočevje
+      link: 'https://www.gssk.si/'
+      date: 2000 - 2004
+      major: Gimnazijski splošni program
+      degree: Gimnazijski maturant
+      description: |
+        Maturiral s pohvalo kot [zlati maturant](https://gsskocevje.splet.arnes.si/files/2021/03/Zlati-maturanti.pdf).
 
 certificate:
   show: true
   order: 6
-  title: Certificates
+  title: Usposabljanja in certifikati
   description: |
-    The certificate section in a resume is a dedicated section where you can showcase any additional certifications or specialized training you have received. This section provides potential employers with a more complete picture of your skills and expertise, and can help you stand out from other candidates.
-
-    Certificates can come from a variety of sources, such as online courses, workshops, or professional development programs. Examples of certificates that might be relevant to include on your resume could include certifications in a particular software or technology, industry-specific certifications, or certifications related to a specific skill or area of expertise.
-
-    When including your certificates in your resume, be sure to provide the name of the certification, the institution or organization that issued it, and the date it was issued. You may also want to include a brief description of the skills or knowledge that the certification demonstrates.
-
-    The certificate section of your resume should be tailored to the specific job you are applying for, and should only include certifications that are relevant to the position. By highlighting your certifications, you can demonstrate your commitment to professional development and your expertise in a particular area.
+    Dodatna strokovna usposabljanja in tečaji, ki sem jih opravil.
 
   items:
-    - name: Example Certificate One
-      issuer: by Example
-      date: 2020
-      link: '#'
+
+    - name: Writing in the Sciences
+      issuer: Coursera Inc.
+      date: 2012
+      link: 'https://www.coursera.org/'
       description: |
-        It's my Example Certificate One by Example.
-    - name: Example Certificate Two
-      issuer: by Example
-      date: 2020
-      link:
+        Tečaj je vodila dr. Kristin Sainani z univerze Stanford. Tečaj sem opravil s pohvalo.
+
+    - name: Machine Learning
+      issuer: Coursera Inc.
+      date: 2012
+      link: 'https://www.coursera.org/'
       description: |
-        It's my Example Certificate Two by Example.
+        Tečaj je vodil dr. Andrew Ng z univerze Stanford
+
+    - name: Veščina nastopanja za predavatelje
+      issuer: Šola retorike
+      date: 2012
+      link: 'https://www.sola-retorike.si/'
+      description: |
+        Tečaj je vodil Zdravko Zupančič
+
+    - name: Delavnica ENSEMBL
+      issuer: Slovensko genetsko društvo
+      date: 2012
+      link: 'https://sgd.si/'
+      description: |
+        Uporaba spletnih orodij in podatkovnih zbirk s področja bioinformatike
+    
+    - name: Advanced Statistics and Data Mining
+      issuer: Universidad Politécnica de Madrid
+      date: 2011
+      link: 'https://cig.fi.upm.es/mlas/'
+      description: |
+        Poletna šola
+
 
 publication:
   show: true
   order: 7
-  title: Publications
+  title: Objave
   description: |
-    The publication section in a resume is a dedicated section where you can showcase any publications that you have authored or contributed to. This section is particularly relevant for individuals in academic or research fields, but can also be relevant for individuals in other fields who have published articles or papers.
+    Celoten seznam mojih objav je dostopen preko portalov [COBISS](https://bib.cobiss.net/biblioweb/biblio/si/slv/cris/31379) in [Google Učenjak](https://scholar.google.com/citations?user=QWd8p8EAAAAJ). 
 
-    Publications can include academic journal articles, conference papers, book chapters, reports, or other written works. In this section, you should list the title of the publication, the names of any co-authors, the name of the publication or conference, the date of publication, and any other relevant details.
-
-    If you have a long list of publications, you may want to consider including only the most relevant or significant publications on your resume. Alternatively, you could create a separate publication list and provide it as a separate document, either in your application materials or upon request.
-
-    Including a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.
+    Tu navajam nekaj najbolj odmevnih in aktualnih del.
 
   items:
-    - title: Example Publication in Action
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link: '#'
-    - title: The Art of Example Publication
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link:
+    - title: Uporaba heterogenih računalniških sistemov za molekulsko sidranje
+      authors: Davor Sluga, Tine Erent, Marko Jukič, Črtomir Podlipnik, Nejc Ilc
+      conference: Elektrotehniški vestnik, 2023
+      link: https://ev.fe.uni-lj.si/1-2-2023/Sluga.pdf
+    
+    - title: Weighted cluster ensemble based on partition relevance analysis with reduction step
+      authors: Nejc Ilc
+      conference: IEEE Access, 2020
+      link: https://dx.doi.org/10.1109/ACCESS.2020.3003046
+
+    - title: Neural-network-based traffic sign detection and recognition in high-definition images using region focusing and parallelization
+      authors: Aleksej Avramović, Davor Sluga, Domen Tabernik, Danijel Skočaj, Vladan Stojnić, Nejc Ilc
+      conference: IEEE Access, 2020
+      link: https://dx.doi.org/10.1109/ACCESS.2020.3031191
+
+    - title: Synergy between 15-lipoxygenase and secreted PLA2 promotes inflammation by formation of TLR4 agonists from extracellular vesicles 
+      authors: Van Thai Ha, Duško Lainšček, Bernd Gesslbauer, Eva Jarc Jovičić, Tuulia Hyötyläinen, Nejc Ilc, Katja Lakota, Matija Tomšič, Fons A. J. Van de Loo, Valery Bochkov, Toni Petan, Roman Jerala, Mateja Manček Keber
+      conference: Proceedings of the National Academy of Sciences of the United States of America, 2020
+      link: https://dx.doi.org/10.1073/pnas.2005111117
+
+    - title: "FTsim: a 3D tool for teaching automation concepts"
+      authors: Nejc Ilc, Uroš Lotrič
+      conference: APCA International Conference on Automatic Control and Soft Computing, 2018
+      link: https://dx.doi.org/10.1109/CONTROLO.2018.8514259
+
+    - title: Toll-like receptor 4 senses oxidative stress mediated by the oxidation of phospholipids in extracellular vesicles 
+      authors: Mateja Manček Keber, Mojca Frank Bertoncelj, Iva Hafner Bratkovič, Anže Smole, Mateja Zorko, Nina Pirher, Silvia Hayer, Veronika Kralj-Iglič, Blaž Rozman, Nejc Ilc, Simon Horvat, Roman Jerala
+      conference: Science signaling, 2015
+      link: https://dx.doi.org/10.1126/scisignal.2005860
+
+    - title: Modified Dunn's cluster validity index based on graph theory
+      authors: Nejc Ilc
+      conference: Przeglęad Elektrotechniczny, 2012
+      link: http://pe.org.pl/articles/2012/2/36.pdf
 
 award:
   show: true
   order: 8
-  title: Awards
-  description: |
-    The award section in a resume is a dedicated section where you can showcase any awards you have received. This section is particularly relevant for individuals who have received awards for their work in their field, such as employees who have received performance awards or industry-specific awards. In this section, you should list the name of the award, the organization or institution that awarded it, the date it was awarded, and any other relevant details.
-
-    When including your awards on your resume, be sure to focus on the most significant or relevant awards that showcase your skills and expertise. If you have received a long list of awards, you may want to consider including only the most recent or prestigious awards on your resume.
-
-    By highlighting your awards, you can demonstrate your achievements and accomplishments in your field, and can help differentiate yourself from other candidates. However, if you have not received any awards, it is not necessary to include this section in your resume.
+  title: Nagrade in priznanja
+  description:
 
   items:
-    - name: Example Awared One
-      awarder: by Example
-      date: 2022
-      link: '#'
-      description: |
-        It's my Example Awared One by Example.
-    - name: Example Awared Two
-      awarder: by Example
-      date: 2022
+    
+    - name: Posebno priznanje za pedagoško delo
+      awarder: Univerza v Ljubljani,<br> Fakulteta za računalništvo in informatiko
+      link: https://fb.watch/s73t-9Hk96/
+      date: 2021 &nbsp;
+      description: Priznanje prejmejo pedagogi z najvišjimi študentskimi ocenami.
+    
+    - name: Pohvala za odlično oddaljeno vodenje laboratorijskih vaj v času splošne karantene
+      awarder: Študentski svet,<br /> Fakulteta za računalništvo in informatiko
+      date: 2020 &nbsp;
+
+    - name: Dekanova zahvala za dolgoletno vodenje študentskih tekmovanj Robo liga FRI
+      awarder: Univerza v Ljubljani,<br> Fakulteta za računalništvo in informatiko
       link:
+      date: 2014 &nbsp;
+      description:
+
+    - name: Vsakoletna dekanova pohvala za opazen prispevek k popularizaciji študija računalništva in informatike
+      awarder: Univerza v Ljubljani,<br> Fakulteta za računalništvo in informatiko
+      link:
+      date: 2009 - 2013
+      description:
+    
+    - name: Zmaga na regijskem študentskem tekmovanju ImagineCup
+      awarder: Microsoft
+      link: https://www.rtvslo.si/znanost-in-tehnologija/veliko-zanimanje-za-microsoftovo-konferenco/204170
+      date: 2009 &nbsp;
       description: |
-        It's my Example Awared Two by Example.
+        Bil sem mentor ekipe VideoBlade, s katero smo se uvrstili na svetovni finale v Kairu (Egipt).
+        
+    - name: Posebno dekanovo priznanje za odličen končni uspeh
+      awarder: Univerza v Ljubljani,<br> Fakulteta za računalništvo in informatiko
+      link:
+      date: 2009 &nbsp;
+      description:
+
+    - name: Vsakoletna dekanova pohvala za zgledno opravljene študijske obveznosti
+      awarder: Univerza v Ljubljani,<br> Fakulteta za računalništvo in informatiko
+      link:
+      date: 2004 - 2008
+      description:
+    
+    - name: Zoisova štipendija
+      awarder: Republika Slovenija
+      date: 2000-2004
+      link:
+      description:
 
 patent:
-  show: true
+  show: false
   order: 9
   title: Patents
   description: |
@@ -406,6 +546,9 @@ reference:
   order: 14
   title: References
   description: |
+    
+    TODO vključi študentska mnenja v reference
+    
     A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. These individuals are typically former managers, colleagues, or mentors who have worked closely with you in the past and can provide insight into your abilities and work style.
 
     It's important to note that including a reference section in a resume is not always necessary, and some employers may prefer to request references separately. If you do choose to include a reference section, it should typically be located at the end of your resume.
