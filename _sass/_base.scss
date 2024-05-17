@@ -93,6 +93,14 @@ small {
       .description {
         margin-bottom: calc($spacing-unit / 2);
       }
+      .columns {
+        columns: 2;
+        column-gap: 2em;
+
+        p {
+          break-inside: avoid-column;
+        }
+      }
 
       .items {
         .item {
@@ -346,4 +354,13 @@ small {
   .description {
     margin: $spacing-unit 0;
   }
+}
+
+.badge {
+  background-color: #777; 
+  color: white; 
+  padding: 0.25em 0.5em; 
+  border-radius: 0.25em;
+  font-size: 0.8em; 
+  text-transform: uppercase;
 }
