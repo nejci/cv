@@ -27,7 +27,7 @@ open_graph:
 
 # Style
 text_direction: ltr         # text direction, 'ltr' or 'rtl'
-date_format: "%Y-%m-%d"     # date format
+date_format: "%Y-%m-%d"   # date format
 theme_color: "#1DA1F2"      # your favorite theme color
 contact_delimiter: "·"      # contact delimiter, '·', '/' or '|'
 section_icon: true          # section title icon, true or false
@@ -38,3 +38,4 @@ section_background: false   # section title background, 'true' or 'false'
 skill_level_icon: circle # skill rate icon, 'heart', 'star', 'circle' or 'lightbulb'
 link_icon: true             # show link icon, 'true' or 'false'
 site_footer: true           # show site footer, 'true' or 'false'
+google_font: Fira Sans              # name of Google font or 'false'

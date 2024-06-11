@@ -1,4 +1,4 @@
 <footer class="footer">
-  <span>Updated:&nbsp;</span>
-  <span>{{ site.time | date: site.date_format | default: "%Y-%m-%d" }}</span>
+  <span>{{ data.updated | default: "Updated:"}}&nbsp;</span>
+  <span>{{ site.time | date: data.date_format | default: "%Y-%m-%d" }}</span>
 </footer>

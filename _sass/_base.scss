@@ -12,7 +12,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
+  margin-top: 2rem;
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
@@ -24,14 +24,15 @@ a {
 
   &:hover,
   &:active {
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: rgba($theme-color, 0.25);
   }
 }
 
 p {
   line-height: $base-line-height;
   margin-top: 0;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 ol, ul {
@@ -103,8 +104,9 @@ small {
       }
 
       .items {
+        flex-wrap: wrap;
         .item {
-          margin-bottom: calc($spacing-unit / 2);
+          margin-bottom: calc($spacing-unit*1.5);
 
           .row {
             display: flex;
@@ -198,7 +200,7 @@ small {
         font-size: $middle-font-size;
         font-weight: $base-font-weight;
         margin-top: 0;
-        margin-bottom: calc($spacing-unit / 4);
+        margin-bottom: calc($spacing-unit);
       }
 
       .contact {
@@ -303,7 +305,26 @@ small {
     }
   }
 
-  .language,
+  .language {
+    .section-content {
+      .items {
+        display: flex;
+        flex-direction: column;
+
+        .item {
+          display: flex;
+          align-items: baseline;
+          margin-bottom: calc($spacing-unit / 2);
+          
+          small::before {
+            content: "\00a0";
+            font-family: initial;
+          }
+        }
+      }
+    }
+  }
+
   .interest {
     .section-content {
       .items {
@@ -357,8 +378,8 @@ small {
 }
 
 .badge {
-  background-color: #777; 
-  color: white; 
+  background-color: rgba($theme-color, 0.25); //$background-second-color; 
+  color: $text-color; 
   padding: 0.25em 0.5em; 
   border-radius: 0.25em;
   font-size: 0.8em; 

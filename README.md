@@ -47,7 +47,7 @@ Features:
 
   `source ~/.rvm/scripts/rvm`
 
-- Install [Jekyll][Jekyll]: 
+- Install [Jekyll][Jekyll]:
 
   `gem install jekyll bundler`
 

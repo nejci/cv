@@ -414,4 +414,6 @@ reference:
       description: |
         Bar Two was my advisor at Example University.
 
+updated: "Updated:"
+date_format: "%Y-%m-%d"
 close: <strong>Sorry, my resume has been hidden.</strong>

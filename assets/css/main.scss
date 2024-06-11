@@ -4,8 +4,14 @@
 @charset "utf-8";
 
 // Define defaults for each variable.
+
+{% if site.google_font %}
+$base-font-family: {{ site.google_font }}, sans-serif;
+{% else %}
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$base-font-size:   16px !default;
+{% endif %}
+
+$base-font-size:   18px !default;
 $base-font-weight: 400 !default;
 
 $small-font-size:  $base-font-size * 0.875 !default; // 14px
@@ -25,6 +31,7 @@ $text-color:        #333333;
 $text-second-color: #3F4650;
 $text-third-color:  #97AAC3;
 $background-color:  #f5f5f5;
+$background-second-color:  #ddd;
 $wrapper-color:     #ffffff;
 $heart-color:       #fb866a;
 $theme-color:       {{ site.theme_color | default: "#1DA1F2" }};
@@ -70,6 +77,9 @@ section {
         font-size: 0.625em;
         margin: 0 0.375em;
         text-decoration: none;
+      }
+      a {
+        white-space: nowrap;
       }
     }
   }

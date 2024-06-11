@@ -124,21 +124,37 @@ experience:
       location: Ljubljana
       description: |
         + Priprava in izvedba predavanj pri predmetih: *Procesna avtomatika*, *Digitalno načrtovanje* in *Osnove programiranja*
-        + Znanstveno-raziskovalna dejavnost (umetna inteligenca, vzporedno računanje, bio-/kemoinformatika)
+        + Znanstveno-raziskovalna dejavnost osredotočena na umetno inteligenco, vzporedno računanje, bio-/kemoinformatiko
         + Mentorstvo študentom na zaključnih delih in delovni praksi
-        + Pridobivanje in vodenje projektov (*Projektno delo za pridobitev praktičnih izkušenj*, *Nacionalni kompetenčni centri v okviru EuroHPC Faza 2*)
-        + Vodenje univerzitetnega tekmovanja v mobilni robotiki "Robo liga FRI"
-        + Vodenje razvijalske ekipe odprtokodnega orodja CmDock
+        + Pridobivanje in vodenje projektov ([Projektno delo za pridobitev praktičnih izkušenj](#pdppi), [Nacionalni kompetenčni centri v okviru EuroHPC Faza 2](#eurocc-2))
+        + Vodenje univerzitetnega tekmovanja v mobilni robotiki [Robo liga FRI](#robo-liga-fri)
+        + Vodenje razvojne ekipe odprtokodnega orodja [CmDock](#cmdock)
 
     - company: Socialna akademija
       link: 'https://socialna-akademija.si'
       tags: pogodbeno delo
       date: april 2024 - sedaj
-      role: Spletni razvijalec
+      role: Razvijalec, vodja ekipe
       location: Ljubljana
       description: |
-        + Izdelava spletne aplikacije
-        + Vodenje razvijalske ekipe
+        + Izdelava spletne aplikacije [Težke teme](https://hardtopics.eu/) (Laravel)
+        + Vodenje dvočlanske razvojne ekipe
+
+    - company: Luka d.o.o.
+      link: 'https://lukceva-domacija.si'
+      tags: pogodbeno delo
+      date: marec 2020 - sedaj
+      role: Razvijalec, svetovalec
+      location: Kočevje
+      description: |
+        + Grafično oblikovanje in izdelava [spletne strani](ttps://www.lukceva-domacija.si)
+        + Zasnova in razvoj celovite rešitve za upravljanje z igro pobega [Skrivnost legende](https://www.skrivnost-legende.si/)
+          + Razvoj zaledja (Node.js, Feather.js, WebSockets)
+          + Razvoj spletne aplikacije (React)
+          + Razvoj krmilnega programja za nadzor naprav (JavaScript, Raspberry Pi)
+          + Video/avdio komunikacija
+          + Svetovanje pri razvoju mehanike igre
+          + Storitve podpore in vzdrževanja
 
     - company: Inštitut Sofos
       link: 'https://www.sofos.si'
@@ -147,7 +163,7 @@ experience:
       role: Spletni razvijalec
       location: Ljubljana
       description: |
-        + Izdelava interaktivnega spletnega vprašalnika
+        + Izdelava [interaktivnega spletnega vprašalnika](https://www.mlcljubljana.com/ocenaEnergije/)
         + Izdelava prijavnega obrazca na spletnem portalu
         + Nudenje podpore pri urejanju spletnega portala (Wordpress)
 
@@ -158,7 +174,7 @@ experience:
       role: Spletni razvijalec
       location: Ljubljana
       description: |
-        + Izdelava interaktivnega spletnega vprašalnika
+        + Izdelava [interaktivnega spletnega vprašalnika](https://www.mlcljubljana.com/ocenaKreativnosti/)
         + Grafično oblikovanje spletnih vsebin
         + Upravljanje spletnega strežnika
 
@@ -171,15 +187,15 @@ experience:
       description: |
         + Samostojno vodenje laboratorijskih vaj pri predmetih: *Logične strukture in sistemi I in II*, *Procesna informatika / avtomatika*, *Računalniško vodenje procesov*, *Računalniški sistemi*, *Arhitektura računalniških sistemov*, *Sistemska programska oprema*, *Programski jezik C*, *Teorija informacij in sistemov*, *Uporaba IKT v naravoslovju in tehniki*.
         + Ustvarjanje učnih gradiv
-        + Izdelava učnih sistemov in simulacijskega okolja za učenje konceptov industrijske avtomatike
-        + Znanstveno-raziskovalna dejavnost na področju strojnega učenja in umetne inteligence
+        + Izdelava učnih sistemov in simulacijskega okolja za učenje konceptov industrijske avtomatike [FTsim](#ftsim)
+        + Znanstveno-raziskovalna dejavnost na področju strojnega učenja in bioinformatike
         + Recenzentsko delo v mednarodnih revijah
         + Opravljanje obveznosti doktorskega študija
         + Gostujoči raziskovalec na Univerzi v Banja Luki, BiH
         + Sodelovanje pri izvedbi poletnih šol mobilne robotike
-        + Vodenje univerzitetnega tekmovanja v mobilni robotiki "Robo liga FRI"
+        + Vodenje univerzitetnega tekmovanja v mobilni robotiki [Robo liga FRI](#robo-liga-fri)
         + Član organizacijskih in programskih odborov mednarodnih znanstvenih konferenc s področja strojnega učenja (ICANNGA'11) in izobraževanja (IEEE EDUCON'20)
-        + Sodelovanje pri odprtokodnih projektih
+        + Sodelovanje pri razvoju odprtokodnih projektov ([Pepelka](#pepelka), [Orange](https://orangedatamining.com/))
 
     - company: Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
       link: 'https://www.fri.uni-lj.si'
@@ -196,86 +212,194 @@ experience:
 project:
   show: true
   order: 3
-  title: Projects
-  description: |
-    TODO med projekte dodaj: 
-      - projekt s Celtro (imaš objavo na konferenci)
-      - Lukčeva domačija Escape room (ali bi dal to tudi pod delovne izkušnje) 
-
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
-
-    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
-
-    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
+  title: Projekti
+  description:
 
   items:
-    - name: Personal project
-      link: '#'
-      tags:
-      date: 2015 - 2017
-      description: |
-        Personal project description...
-        + First
-        + Second
 
-    - name: OSS project
-      link:
-      tags: committer
-      date:
+    - name: EuroCC 2
+      link: https://www.sling.si/kompetencni-center/projekt-eurocc/
+      tags: visoko zmogljivo računanje, heterogeni sistemi, izobraževanja
+      date: januar 2023 - sedaj
       description: |
-        OSS project description...
-        + First
-        + Second
+        Evropski projekt EuroCC 2 nadaljuje zgodbo nacionalnega kompetenčnega centra v okviru 2. faze razpisov skupnega podjetja EuroHPC. Projekt spodbuja inovacije, sodelovanja ter uporabo superračunalniških zmogljivosti v korist evropske znanosti, industrije in celotne družbe. 
+        
+        Na projektu sem bil zaposlen kot eden izmed vodij na UL FRI. Pripravljal in vodil sem delavnice na temo superračunalništva za raziskovalce, študente, predstavnike podjetij in širšo splošno javnost. Moja odgovornost je bila tudi vzpostavljanje novih stikov z deležniki v akademskem in poslovnem sektorju ter nudenje podpore zagonskim podjetjem s področja umetne inteligence pri doseganju konkurenčne prednosti.  
+
+    - name: Razvoj programskih orodij za računalniško kemijo
+      id: pdppi
+      link: 
+      tags: kemoinformatika, visoko zmogljivo računanje
+      date: februar 2023 - junij 2023
+      description: |
+        Projekt sem pridobil na razpisu Ministrstva za visoko šolstvo, znanost in inovacije "Projektno delo za pridobitev praktičnih izkušenj in znanj študentov v delovnem okolju". Vrednost projekta je bila 20.600 EUR.
+
+        Moje odgovornosti so bile: mentoriranje študentov, načrtovanje in vodenje nalog, usmerjanje dela desetčlanske ekipe, priprava finančnega načrta in poročanje.
+
+        Glavni namen projekta je bil v sodelovanju s podjetjem IntelliMol razviti računalniška orodja za učinkovito in uporabniku prijazno pripravo, analizo in simulacijo kemijskih spojin ter aplikacija teh orodij na razvoj novih zdravil.
+
+    - name: FTsim
+      link: 'https://github.com/laspp/FTsim-ADS'
+      tags: industrijska avtomatika, simulacija, Industrija 4.0, digitalni dvojček
+      date: januar 2021 - sedaj
+      description: |
+        Navidezno 3D okolje, ki simulira učne modele Fischertechnik. Orodje je namenjeno izobraževanju na področju industrijske avtomatike in predstavlja koncepte digitalnega dvojčka. 
+        
+        Razvili smo integracijo z razvojnimi sistemi:
+        + [Beckhoff TwinCAT](https://github.com/laspp/FTsim-ADS) (protokol ADS) in 
+        + [Siemens TIA Portal](https://github.com/nejci/FTsim) (emulacija s S7-PLCSIM)
+
+        Projekt smo predstavili na mednarodni znanstveni konferenci [CONTROLO](https://dx.doi.org/10.1109/CONTROLO.2018.8514259).
+
+
+    - name: CmDock
+      link: https://gitlab.com/Jukic/cmdock
+      tags: molekulsko sidranje, kemoinformatika, farmacija, HTVS, visoko zmogljivo računanje
+      date: oktober 2020 - sedaj
+      description: |
+        CmDock je odprtokodno orodje za računalniško simulacijo molekulskega sidranja, ki je eden ključnih korakov v razvoju novih zdravilnih učinkovin. Projekt je del iniciativ skupnostne znanosti [COVID.SI](https://covid.si/) in [SiDock@home](https://sidock.si/), ki izkoriščajo tehnologijo porazdeljenega procesiranja na napravah prostovoljcev.
+
+        Projektu sem se pridružil kot razvijalec (C++) in pozneje prevzel neformalno vodenje petčlanske razvojne ekipe študentov in zaposlenih na UL FRI. V okviru projekta sem mentoriral več diplomskih in magistrskih del, ki so se osredotočala predvsem na pospešitev izračunov simulacij z uporabo grafičnih procesnih enot (ogrodje OpenCL). Prve rezultate smo objavili v slovenski znanstveni reviji [Elektrotehniški vestnik](https://ev.fe.uni-lj.si/1-2-2023/Sluga.pdf).
+
+    - name: Pepelka - orodje za analizo gruč
+      id: pepelka
+      link: https://github.com/nejci/Pepelka
+      tags: strojno učenje, analiza gruč, podatkovna znanost
+      date: februar 2009 - marec 2023
+      description: |
+        Pepelka je odprtokodno orodje za odkrivanje gruč v neoznačenih podatkih in njihovo učinkovito vizualizacijo. Izdelano je v okolju Matlab in optimizirano za vzporedno izvajanje na večjedrnih procesorjih. Vsebuje paleto funkcionalnosti za nalaganje in predprocesiranje podatkov, analizo gruč z enostavnimi algoritmi in ansambli (glasovalni sistem več algoritmov), vrednotenje rezultatov z notranjimi in zunanjimi merami in vizualizacijo vmesnih in končnih rezultatov.
+
+        Orodje je nastalo v okviru mojega znanstveno-raziskovalnega dela na UL FRI in je predstavljeno v [znanstveni reviji IEEE Access](https://dx.doi.org/10.1109/ACCESS.2020.3003046) in moji [doktorski disertaciji](https://repozitorij.uni-lj.si/Dokument.php?id=90006&lang=eng).
+
+    - name: Robo liga FRI
+      link: https://fri.uni-lj.si/sl/robo-liga-fri
+      tags: študentsko tekmovanje, mobilna robotika
+      date: oktober 2009 - april 2023
+      description: |
+        Robo liga FRI je tradicionalno univerzitetno tekmovanje v programiranju avtonomnih robotov Lego Mindstorms, ki želi na zabaven način spodbuditi razvoj programerskih veščin in projektnega dela. 
+        
+        Bil sem so-organizator tega dogodka skoraj od samih začetkov. Za svoje delo sem bil večkrat nagrajen s strani vodstva Fakultete za računalništvo in informatiko. Skupaj s sodelavci in zagnanimi tekmovalci smo Robo ligo FRI naredili za odmeven in prepoznaven dogodek. 
+
+        Več o projektu: [YouTube](https://www.youtube.com/playlist?list=PLGYg4ZIlAe57sfAJ5fUjTZx1mcuwjqYHE) / [GitHub](https://roboliga.github.io/) / [diplomsko delo](https://repozitorij.uni-lj.si/Dokument.php?id=134404&lang=slv) / [objava na konferenci](https://erk.fe.uni-lj.si/2022/papers/ilc(arhitektura_sistema).pdf)
+
+    - name: Generator umetnih podatkov
+      id: lin-sep-gen
+      link: https://github.com/nejci/data-generator-lin-sep
+      tags: strojno učenje, analiza gruč, podatkovna znanost 
+      date: avgust 2017
+      description: |
+        Med doktorskim študijem sem za potrebe evalvacije nenadzorovanih metod strojnega učenja razvil generator učnih primerov, kjer razredi med seboj niso linearno ločljivi. Rezultate smo objavili na znanstveni konferenci [ERK](https://erk.fe.uni-lj.si/2017/papers/ilc(data_generator).pdf).
 
 skill:
   show: true
   order: 4
-  title: Skills
-  description: |
-    The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
-
-    The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
-
-    When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
-
-    There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
-
-  items:
-    - name: Skill A
-      level: 5
-    - name: Skill B
-      level: 4
-    - name: Skill C
-      level: 3
-    - name: Skill D
-      level: 4
-    - name: Skill E
-      level: 3
-    - name: Skill F
-      level: 1
-    - name: Skill G
-      level: 4
-    - name: Skill H
-      level: 4
-    - name: Skill I
-      level: 3
-
+  title: Veščine in znanja
+  description:
   groups:
-    - name: Group A Skills
+    - name: Strojno učenje, umetna inteligenca
       item:
-        - Skill A
-        - Skill B
-        - Skill C
-        - Skill D
-    - name: Group B Skills
+        - analiza gruč
+        - nenadzorovano učenje
+        - globoke nevronske mreže
+        - optimizacijski algoritmi
+        - učenje z ansambli
+        - teorija informacije
+        - računalniški vid
+        - algoritmi na grafih
+        - rudarjenje podatkov
+        - vizualizacija
+
+    - name: Visoko zmogljivo računanje (HPC)
       item:
-        - Skill E
-        - Skill F
-        - Skill G
-    - name: Group C Skills
+        - Slurm
+        - vsebniki Apptainer, Docker
+        - heterogene arhitekture
+        - grafične procesne enote
+        - programirljiva vezja FPGA
+        - Python knjižnice Dask, RAPIDS, PyTorch
+
+    - name: Industrijska avtomatika
       item:
-        - Skill H
-        - Skill I
+        - model ISA 95
+        - jeziki IEC-61131
+        - SCADA
+        - MES
+        - OPC UA
+        - industrijski krmilniki
+        - TwinCAT
+        - TIA Portal
+        - IoT
+        - Industrija 4.0
+        - digitalni dvojček
+
+    - name: Spletne tehnologije in ogrodja, baze
+      item:
+        - HTML
+        - CSS
+        - React.js
+        - Laravel
+        - Node.js
+        - Feathers.js
+        - MySQL
+        - MongoDB      
+
+    - name: Programski jeziki
+      item:
+        - Bash
+        - Matlab
+        - C/C++
+        - C#
+        - JavaScript
+        - LAD in ST
+        - PHP
+        - Python
+        - R        
+    - name: Druge digitalne veščine, orodja
+      item:
+        - CorelDraw, Inkscape, GIMP
+        - Unity 3D
+        - Markdown
+        - LaTeX
+        - Git, GitHub, GitLab
+        - Trello
+        - Slack
+        - Notion
+
+    - name: Ekipno delo
+      item:
+        - gradnja kvalitetnih odnosov
+        - voditeljstvo v drži služenja
+        - prevzemanje odgovornosti
+        - zanesljivost
+        - mentorstvo
+        - dodeljevanje nalog
+        - konstruktivno reševanje izzivov
+        - samomotivacija
+
+    - name: Čustvena inteligenca
+      item:
+        - zaznavanje in odziv na čustva drugih
+        - razreševanje konfliktov
+        - mediacija
+        - gradnja zaupanja
+
+    - name: Obvladovanje stresa
+      item:
+        - ohranjanje notranjega miru v nepredvidljivih okoliščinah
+        - samonadzor in osredotočenost
+        - prilagodljivost spremembam
+        - organiziranost v časovni stiski
+
+    - name: Komunikacijske spretnosti
+      item:
+        - aktivno poslušanje
+        - natančno in argumentirano izražanje
+        - smisel za humor
+        - pisanje znanstvenih in strokovnih besedil
+        - ustvarjalno pisanje
+        - javno nastopanje
+        - razlaga kompleksnih pojmov na enostaven način
+        - učinkovita predstavitev idej
 
 education:
   show: true
@@ -368,9 +492,11 @@ publication:
   order: 7
   title: Objave
   description: |
-    Celoten seznam mojih objav je dostopen preko portalov [COBISS](https://bib.cobiss.net/biblioweb/biblio/si/slv/cris/31379) in [Google Učenjak](https://scholar.google.com/citations?user=QWd8p8EAAAAJ). 
+    Nekaj mojih najbolj odmevnih in aktualnih del.
 
-    Tu navajam nekaj najbolj odmevnih in aktualnih del.
+    Celoten seznam mojih objav s podatki o citiranosti je dostopen preko portalov [COBISS](https://bib.cobiss.net/biblioweb/biblio/si/slv/cris/31379) in [Google Učenjak](https://scholar.google.com/citations?user=QWd8p8EAAAAJ). 
+
+    
 
   items:
     - title: Uporaba heterogenih računalniških sistemov za molekulsko sidranje
@@ -489,49 +615,48 @@ patent:
 
 organization:
   show: true
-  order: 10
-  title: Organizations
+  order: 11
+  title: Družbena dejavnost
   description: |
-    The organization section in a resume, specifically for social contexts, is a section where you can showcase any relevant involvement or leadership positions in social, cultural, or community organizations. This section can highlight your commitment to social causes and your ability to work collaboratively with others towards a common goal.
+    V letu 2009 sem bil ustanovni član in prvi predsednik lokalnega Društva katoliške mladine Ribnica, ki se je v kontektu občine in župnije posvečalo kulturni, duhovni in socialni dobrobiti mladine in tudi odraslih. Naš najodmevnejši projekt je bil [Ribniški pasijon](http://www.ribniskipasijon.si/), ki je v nekaj letih postal najprepoznavnejši kulturni projekt Ribniške doline. V trinajstletnem obdobju je vsako leto povezal preko 200 prostovoljcev, ki sem jih kot projektni vodja imel priložnost v eni od sezon tudi voditi. Sicer pa sem svoje talente prispeval kot scenarist, pisec glasbe in besedil, igralec in vodja priložnostne glasbene zasedbe.
+    
+    Delo z mladimi mi je še posebej blizu. Več let zapored sem svoja srednješolska in tudi študentska poletja posvetil vsakoletni organizaciji oratorija v župniji Ribnica. Gre za enotedenski program za več kot 150 mladih. V letih od 2008 do 2010 sem bil aktiven voditelj v Združenju slovenskih katoliških skavtinj in skavtov.
 
-    In this section, you can list the name of the organization, your role and responsibilities, the duration of your involvement, and any significant achievements or accomplishments. You can also mention any skills or qualities you gained from your involvement, such as leadership, teamwork, communication, or problem-solving skills.
-
-    This section can be especially valuable for candidates seeking positions in the non-profit sector, social work, or community engagement roles, where experience in social or cultural organizations can demonstrate a genuine passion for social causes and a willingness to work collaboratively towards social change. However, it is important to only include organizations that are relevant to the job you are applying for, and avoid listing organizations that may be controversial or potentially offensive.
+    Preko dela v omenjenih organizacijah sem pridobil široko paleto mehkih veščin, kar mi omogoča gradnjo kakovostnih medosebnih odnosov, ki so predpogoj za učinkovito delo v projektni skupini, vodenje in mentorstvo.
 
 language:
   show: true
-  order: 11
-  title: Languages
+  order: 10
+  title: Jeziki
   description: |
-    The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
-
-    It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
 
   items:
-    - idiom: Chinese
-      level: Native
-    - idiom: English
-      level: Professional
+    - idiom: Slovenščina
+      level: materni jezik
+    - idiom: Angleščina
+      level: profesionalna raba - C1
+    - idiom: Nemščina
+      level: osnovno sporazumevanje - A1
+    - idiom: Hrvaščina
+      level: osnovno sporazumevanje - A2
 
 interest:
-  show: true
+  show: false
   order: 12
-  title: Interests
+  title: Zanimanja
   description: |
-    The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
-
-    Including an interest section in your resume can be helpful if your interests are relevant to the job you are applying for, such as if you are applying for a job in a creative field and your hobbies include painting or writing. It can also be useful if you are applying for a job where teamwork or social skills are important, and you can mention interests that demonstrate those qualities.
-
-    However, it is important to be selective when including an interest section in your resume, and to choose interests that are appropriate and professional. Avoid including controversial or potentially offensive interests, and focus on interests that showcase your positive qualities and strengths.
 
   items:
-    - item: Reading
-      link: '#'
-    - item: Cooking
-      link:
+    - item: Branje
+    - item: Košarka
+    - item: Kitara
+    - item: Ustvarjalno pisanje
+    - item: Igra z otroci
+    - item: Soba pobega
+    - item: Elektronika
 
 evaluation:
-  show: true
+  show: false
   order: 13
   title: Self-evaluation
   description: |
@@ -542,7 +667,7 @@ evaluation:
     A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
 
 reference:
-  show: true
+  show: false
   order: 14
   title: References
   description: |
@@ -578,4 +703,6 @@ reference:
       description: |
         Bar Two was my advisor at Example University.
 
+updated: "Posodobljeno:"
+date_format: "%d. %m. %Y"
 close: <strong>Sorry, my resume has been hidden.</strong>
