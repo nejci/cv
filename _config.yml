@@ -11,7 +11,7 @@ sass:
 # Custom
 lang: sl
 open: true                  # show or hide your resume
-show_personal_data: true   # show personal data (birthday, phone, email), 'true' or 'false'
+show_personal_data: false   # show personal data (birthday, phone, email), 'true' or 'false'
 allow_search_engines: true  # allow your resume indexing by search engine, 'true' or 'false'
 analytics:
   google:                   # google analytics
