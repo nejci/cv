@@ -106,7 +106,10 @@ small {
       .items {
         flex-wrap: wrap;
         .item {
-          margin-bottom: calc($spacing-unit*1.5);
+          
+          &:not(:last-child) {
+            margin-bottom: calc($spacing-unit);
+          }
 
           .row {
             display: flex;
@@ -179,9 +182,9 @@ small {
     justify-content: space-between;
 
     .avatar {
-      max-height: 100px;
+      max-height: 180px;
       border: 0px solid $wrapper-color;
-      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+      //box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     }
 
     .header {
@@ -278,6 +281,8 @@ small {
         .group {
           display: flex;
           justify-content: space-between;
+          margin-top: $spacing-unit;
+          padding-bottom: $spacing-unit;
 
           &:not(:last-child) {
             border-bottom: 1px dashed rgba($text-third-color, 0.25);
@@ -299,6 +304,10 @@ small {
               color: $text-third-color;
               margin: 0 0.5em;
             }
+            span:last-child::after {
+              content: "\00a0\00a0";
+              margin: 0 0.5em;
+            }
           }
         }
       }
@@ -314,7 +323,9 @@ small {
         .item {
           display: flex;
           align-items: baseline;
-          margin-bottom: calc($spacing-unit / 2);
+          &:not(:last-child) {
+            margin-bottom: calc($spacing-unit / 2);
+          }
           
           small::before {
             content: "\00a0";

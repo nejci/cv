@@ -98,7 +98,7 @@ profile:
 
     <span class="badge">Mentor</span> diplomantom na fakulteti ali pa udeležencem otroškega poletnega tabora. Osrečuje me, če lahko druge navdušim in opolnomočim, da razvijejo svoje talente.
 
-    <span class="badge">Voditelj</span> je vloga, s katero se spogledujeva od najstniških let. Bil sem voditelj mladinskih skupin v župniji in uril predragocene mehke veščine kot skavtski voditelj. Bil sem sovoditelj univerzitetnega tekmovanja v mobilni robotiki Robo liga FRI. Imam izkušnje vodenja projektov na evropski in državni ravni. In da, vodil sem tudi rokovski bend in lokalno društvo.
+    <span class="badge">Voditelj</span> je vloga, s katero se spogledujeva od najstniških let. Bil sem voditelj mladinskih skupin v župniji in uril predragocene mehke veščine kot skavtski voditelj. Bil sem so-voditelj univerzitetnega tekmovanja v mobilni robotiki Robo liga FRI. Imam izkušnje vodenja projektov na evropski in državni ravni. In da, vodil sem tudi rokovski bend in lokalno društvo.
 
     <span class="badge">Profesor</span> Od kar vem zase, z veseljem in radostjo razlagam zapletene koncepte na enostaven način. Včasih tudi obratno. Imam 15 let delovnih izkušenj v visokem šolstvu.
 
@@ -119,7 +119,7 @@ experience:
     - company: Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
       link: 'https://www.fri.uni-lj.si'
       tags: poln delovni čas
-      date: april 2021 - sedaj
+      date: apr. 2021 → sedaj
       role: Docent
       location: Ljubljana
       description: |
@@ -133,7 +133,7 @@ experience:
     - company: Socialna akademija
       link: 'https://socialna-akademija.si'
       tags: pogodbeno delo
-      date: april 2024 - sedaj
+      date: apr. 2024 → sedaj
       role: Razvijalec, vodja ekipe
       location: Ljubljana
       description: |
@@ -143,7 +143,7 @@ experience:
     - company: Luka d.o.o.
       link: 'https://lukceva-domacija.si'
       tags: pogodbeno delo
-      date: marec 2020 - sedaj
+      date: mar. 2020 → sedaj
       role: Razvijalec, svetovalec
       location: Kočevje
       description: |
@@ -159,7 +159,7 @@ experience:
     - company: Inštitut Sofos
       link: 'https://www.sofos.si'
       tags: pogodbeno delo
-      date: maj 2017 - avgust 2017
+      date: maj 2017 → avg. 2017
       role: Spletni razvijalec
       location: Ljubljana
       description: |
@@ -170,7 +170,7 @@ experience:
     - company: MLC Ljubljana
       link: 'https://www.mlcljubljana.com'
       tags: pogodbeno delo
-      date: januar 2017 - oktober 2018
+      date: jan. 2017 → okt. 2018
       role: Spletni razvijalec
       location: Ljubljana
       description: |
@@ -181,7 +181,7 @@ experience:
     - company: Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
       link: 'https://www.fri.uni-lj.si'
       tags: poln delovni čas
-      date: februar 2009 - april 2021
+      date: feb 2009 → apr. 2021
       role: Asistent
       location: Ljubljana
       description: |
@@ -200,7 +200,7 @@ experience:
     - company: Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
       link: 'https://www.fri.uni-lj.si'
       tags: študentsko delo
-      date: oktober 2007 - januar 2009
+      date: okt 2007 → jan. 2009
       role: Demonstrator
       location: Ljubljana
       description: |
@@ -220,7 +220,7 @@ project:
     - name: EuroCC 2
       link: https://www.sling.si/kompetencni-center/projekt-eurocc/
       tags: visoko zmogljivo računanje, heterogeni sistemi, izobraževanja
-      date: januar 2023 - sedaj
+      date: jan. 2023 → sedaj
       description: |
         Evropski projekt EuroCC 2 nadaljuje zgodbo nacionalnega kompetenčnega centra v okviru 2. faze razpisov skupnega podjetja EuroHPC. Projekt spodbuja inovacije, sodelovanja ter uporabo superračunalniških zmogljivosti v korist evropske znanosti, industrije in celotne družbe. 
         
@@ -230,7 +230,7 @@ project:
       id: pdppi
       link: 
       tags: kemoinformatika, visoko zmogljivo računanje
-      date: februar 2023 - junij 2023
+      date: feb. 2023 → jun. 2023
       description: |
         Projekt sem pridobil na razpisu Ministrstva za visoko šolstvo, znanost in inovacije "Projektno delo za pridobitev praktičnih izkušenj in znanj študentov v delovnem okolju". Vrednost projekta je bila 20.600 EUR.
 
@@ -241,7 +241,7 @@ project:
     - name: FTsim
       link: 'https://github.com/laspp/FTsim-ADS'
       tags: industrijska avtomatika, simulacija, Industrija 4.0, digitalni dvojček
-      date: januar 2021 - sedaj
+      date: jan. 2021 → sedaj
       description: |
         Navidezno 3D okolje, ki simulira učne modele Fischertechnik. Orodje je namenjeno izobraževanju na področju industrijske avtomatike in predstavlja koncepte digitalnega dvojčka. 
         
@@ -255,7 +255,7 @@ project:
     - name: CmDock
       link: https://gitlab.com/Jukic/cmdock
       tags: molekulsko sidranje, kemoinformatika, farmacija, HTVS, visoko zmogljivo računanje
-      date: oktober 2020 - sedaj
+      date: okt. 2020 → sedaj
       description: |
         CmDock je odprtokodno orodje za računalniško simulacijo molekulskega sidranja, ki je eden ključnih korakov v razvoju novih zdravilnih učinkovin. Projekt je del iniciativ skupnostne znanosti [COVID.SI](https://covid.si/) in [SiDock@home](https://sidock.si/), ki izkoriščajo tehnologijo porazdeljenega procesiranja na napravah prostovoljcev.
 
@@ -265,7 +265,7 @@ project:
       id: pepelka
       link: https://github.com/nejci/Pepelka
       tags: strojno učenje, analiza gruč, podatkovna znanost
-      date: februar 2009 - marec 2023
+      date: feb. 2009 → mar. 2023
       description: |
         Pepelka je odprtokodno orodje za odkrivanje gruč v neoznačenih podatkih in njihovo učinkovito vizualizacijo. Izdelano je v okolju Matlab in optimizirano za vzporedno izvajanje na večjedrnih procesorjih. Vsebuje paleto funkcionalnosti za nalaganje in predprocesiranje podatkov, analizo gruč z enostavnimi algoritmi in ansambli (glasovalni sistem več algoritmov), vrednotenje rezultatov z notranjimi in zunanjimi merami in vizualizacijo vmesnih in končnih rezultatov.
 
@@ -274,7 +274,7 @@ project:
     - name: Robo liga FRI
       link: https://fri.uni-lj.si/sl/robo-liga-fri
       tags: študentsko tekmovanje, mobilna robotika
-      date: oktober 2009 - april 2023
+      date: okt. 2009 → apr. 2023
       description: |
         Robo liga FRI je tradicionalno univerzitetno tekmovanje v programiranju avtonomnih robotov Lego Mindstorms, ki želi na zabaven način spodbuditi razvoj programerskih veščin in projektnega dela. 
         
@@ -286,9 +286,11 @@ project:
       id: lin-sep-gen
       link: https://github.com/nejci/data-generator-lin-sep
       tags: strojno učenje, analiza gruč, podatkovna znanost 
-      date: avgust 2017
+      date: avg. 2017
       description: |
-        Med doktorskim študijem sem za potrebe evalvacije nenadzorovanih metod strojnega učenja razvil generator učnih primerov, kjer razredi med seboj niso linearno ločljivi. Rezultate smo objavili na znanstveni konferenci [ERK](https://erk.fe.uni-lj.si/2017/papers/ilc(data_generator).pdf).
+        Med doktorskim študijem sem za potrebe evalvacije nenadzorovanih metod strojnega učenja razvil generator učnih primerov, kjer razredi med seboj niso linearno ločljivi. 
+        
+        Rezultate smo objavili na znanstveni konferenci [ERK](https://erk.fe.uni-lj.si/2017/papers/ilc(data_generator).pdf).
 
 skill:
   show: true
@@ -316,7 +318,7 @@ skill:
         - heterogene arhitekture
         - grafične procesne enote
         - programirljiva vezja FPGA
-        - Python knjižnice Dask, RAPIDS, PyTorch
+        - "Python knjižnice: Dask, RAPIDS, PyTorch"
 
     - name: Industrijska avtomatika
       item:
@@ -374,7 +376,7 @@ skill:
         - mentorstvo
         - dodeljevanje nalog
         - konstruktivno reševanje izzivov
-        - samomotivacija
+        - samo-motivacija
 
     - name: Čustvena inteligenca
       item:
@@ -398,8 +400,8 @@ skill:
         - pisanje znanstvenih in strokovnih besedil
         - ustvarjalno pisanje
         - javno nastopanje
-        - razlaga kompleksnih pojmov na enostaven način
         - učinkovita predstavitev idej
+        - enostavna razlaga kompleksnih pojmov
 
 education:
   show: true
@@ -410,9 +412,9 @@ education:
   items:
     - institution: Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
       link: 'https://www.fri.uni-lj.si'
-      date: 2009 - 2016
+      date: 2009 → 2016
       major: Računalništvo in informatika
-      degree: Doktorat znanosti
+      degree: Doktor znanosti
       description: |
         Disertacija [*Razvrščanje z uporabo uteženega ansambla*](https://repozitorij.uni-lj.si/Dokument.php?id=90006&lang=eng)
         
@@ -422,7 +424,7 @@ education:
 
     - institution: Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
       link: 'https://www.fri.uni-lj.si'
-      date: 2004 - 2009
+      date: 2004 → 2009
       major: Računalništvo in informatika
       degree: Univerzitetni diplomirani inženir
       description: |
@@ -436,7 +438,7 @@ education:
 
     - institution: Gimnazija Kočevje
       link: 'https://www.gssk.si/'
-      date: 2000 - 2004
+      date: 2000 → 2004
       major: Gimnazijski splošni program
       degree: Gimnazijski maturant
       description: |
@@ -463,21 +465,21 @@ certificate:
       date: 2012
       link: 'https://www.coursera.org/'
       description: |
-        Tečaj je vodil dr. Andrew Ng z univerze Stanford
+        Tečaj je vodil dr. Andrew Ng z univerze Stanford.
 
     - name: Veščina nastopanja za predavatelje
       issuer: Šola retorike
       date: 2012
       link: 'https://www.sola-retorike.si/'
       description: |
-        Tečaj je vodil Zdravko Zupančič
+        Tečaj je vodil Zdravko Zupančič.
 
     - name: Delavnica ENSEMBL
       issuer: Slovensko genetsko društvo
       date: 2012
       link: 'https://sgd.si/'
       description: |
-        Uporaba spletnih orodij in podatkovnih zbirk s področja bioinformatike
+        Uporaba spletnih orodij in podatkovnih zbirk s področja bioinformatike.
     
     - name: Advanced Statistics and Data Mining
       issuer: Universidad Politécnica de Madrid
@@ -489,7 +491,7 @@ certificate:
 
 publication:
   show: true
-  order: 7
+  order: 11
   title: Objave
   description: |
     Nekaj mojih najbolj odmevnih in aktualnih del.
@@ -524,7 +526,7 @@ publication:
       conference: APCA International Conference on Automatic Control and Soft Computing, 2018
       link: https://dx.doi.org/10.1109/CONTROLO.2018.8514259
 
-    - title: Toll-like receptor 4 senses oxidative stress mediated by the oxidation of phospholipids in extracellular vesicles 
+    - title: Toll-like receptor 4 senses oxidative stress mediated by the oxidation of phospholipids<br>in extracellular vesicles 
       authors: Mateja Manček Keber, Mojca Frank Bertoncelj, Iva Hafner Bratkovič, Anže Smole, Mateja Zorko, Nina Pirher, Silvia Hayer, Veronika Kralj-Iglič, Blaž Rozman, Nejc Ilc, Simon Horvat, Roman Jerala
       conference: Science signaling, 2015
       link: https://dx.doi.org/10.1126/scisignal.2005860
@@ -536,56 +538,56 @@ publication:
 
 award:
   show: true
-  order: 8
+  order: 7
   title: Nagrade in priznanja
   description:
 
   items:
     
     - name: Posebno priznanje za pedagoško delo
-      awarder: Univerza v Ljubljani,<br> Fakulteta za računalništvo in informatiko
+      awarder: Univerza v Ljubljani,<br> Fakulteta za rač. in informatiko
       link: https://fb.watch/s73t-9Hk96/
-      date: 2021 &nbsp;
+      date: 2021
       description: Priznanje prejmejo pedagogi z najvišjimi študentskimi ocenami.
     
     - name: Pohvala za odlično oddaljeno vodenje laboratorijskih vaj v času splošne karantene
-      awarder: Študentski svet,<br /> Fakulteta za računalništvo in informatiko
-      date: 2020 &nbsp;
+      awarder: Študentski svet,<br /> Fakulteta za rač. in informatiko
+      date: 2020
 
     - name: Dekanova zahvala za dolgoletno vodenje študentskih tekmovanj Robo liga FRI
-      awarder: Univerza v Ljubljani,<br> Fakulteta za računalništvo in informatiko
+      awarder: Univerza v Ljubljani,<br> Fakulteta za rač. in informatiko
       link:
-      date: 2014 &nbsp;
+      date: 2014
       description:
 
     - name: Vsakoletna dekanova pohvala za opazen prispevek k popularizaciji študija računalništva in informatike
-      awarder: Univerza v Ljubljani,<br> Fakulteta za računalništvo in informatiko
+      awarder: Univerza v Ljubljani,<br>Fakulteta za rač. in informatiko
       link:
-      date: 2009 - 2013
+      date: 2009&nbsp;→&nbsp;2013
       description:
     
     - name: Zmaga na regijskem študentskem tekmovanju ImagineCup
       awarder: Microsoft
       link: https://www.rtvslo.si/znanost-in-tehnologija/veliko-zanimanje-za-microsoftovo-konferenco/204170
-      date: 2009 &nbsp;
+      date: 2009
       description: |
         Bil sem mentor ekipe VideoBlade, s katero smo se uvrstili na svetovni finale v Kairu (Egipt).
         
     - name: Posebno dekanovo priznanje za odličen končni uspeh
-      awarder: Univerza v Ljubljani,<br> Fakulteta za računalništvo in informatiko
+      awarder: Univerza v Ljubljani,<br> Fakulteta za rač. in informatiko
       link:
-      date: 2009 &nbsp;
+      date: 2009
       description:
 
     - name: Vsakoletna dekanova pohvala za zgledno opravljene študijske obveznosti
-      awarder: Univerza v Ljubljani,<br> Fakulteta za računalništvo in informatiko
+      awarder: Univerza v Ljubljani,<br> Fakulteta za rač. in informatiko
       link:
-      date: 2004 - 2008
+      date: 2004&nbsp;→&nbsp;2008
       description:
     
     - name: Zoisova štipendija
       awarder: Republika Slovenija
-      date: 2000-2004
+      date: 2000&nbsp;→&nbsp;2004
       link:
       description:
 
@@ -615,18 +617,18 @@ patent:
 
 organization:
   show: true
-  order: 11
+  order: 10
   title: Družbena dejavnost
   description: |
-    V letu 2009 sem bil ustanovni član in prvi predsednik lokalnega Društva katoliške mladine Ribnica, ki se je v kontektu občine in župnije posvečalo kulturni, duhovni in socialni dobrobiti mladine in tudi odraslih. Naš najodmevnejši projekt je bil [Ribniški pasijon](http://www.ribniskipasijon.si/), ki je v nekaj letih postal najprepoznavnejši kulturni projekt Ribniške doline. V trinajstletnem obdobju je vsako leto povezal preko 200 prostovoljcev, ki sem jih kot projektni vodja imel priložnost v eni od sezon tudi voditi. Sicer pa sem svoje talente prispeval kot scenarist, pisec glasbe in besedil, igralec in vodja priložnostne glasbene zasedbe.
+    V letu 2009 sem bil ustanovni član in prvi predsednik lokalnega Društva katoliške mladine Ribnica, ki se je v kontekstu občine in župnije posvečalo kulturni, duhovni in socialni blaginji mladine in tudi odraslih. Naš najodmevnejši projekt je bil [Ribniški pasijon](http://www.ribniskipasijon.si/), ki je v nekaj letih postal najprepoznavnejši kulturni projekt Ribniške doline. V trinajstletnem obdobju je vsako leto povezal več kot 200 prostovoljcev, ki sem jih kot projektni vodja imel priložnost v eni od sezon tudi voditi. Sicer pa sem svoje talente prispeval kot scenarist, pisec glasbe in besedil, igralec in vodja priložnostne glasbene zasedbe.
     
-    Delo z mladimi mi je še posebej blizu. Več let zapored sem svoja srednješolska in tudi študentska poletja posvetil vsakoletni organizaciji oratorija v župniji Ribnica. Gre za enotedenski program za več kot 150 mladih. V letih od 2008 do 2010 sem bil aktiven voditelj v Združenju slovenskih katoliških skavtinj in skavtov.
+    Delo z mladimi mi je še posebej blizu. Več let zapored sem svoja srednješolska in tudi študentska poletja posvetil vsakoletni organizaciji oratorija v župniji Ribnica. Gre za enotedenski program za več kot 150 mladih. V letih od 2008 do 2010 sem bil aktiven voditelj v Združenju slovenskih katoliških skavtinj in skavtov, ki je ena večjih mladinskih organizacij v državi. Organiziral in vodil sem tedenska srečanja, tabore in druge dejavnosti, ki so prispevale k osebni rasti mladih in družbenemu razvoju.
 
     Preko dela v omenjenih organizacijah sem pridobil široko paleto mehkih veščin, kar mi omogoča gradnjo kakovostnih medosebnih odnosov, ki so predpogoj za učinkovito delo v projektni skupini, vodenje in mentorstvo.
 
 language:
   show: true
-  order: 10
+  order: 9
   title: Jeziki
   description: |
 
@@ -651,7 +653,7 @@ interest:
     - item: Košarka
     - item: Kitara
     - item: Ustvarjalno pisanje
-    - item: Igra z otroci
+    - item: Pustolovščine z družino
     - item: Soba pobega
     - item: Elektronika
 
