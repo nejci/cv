@@ -4,13 +4,13 @@
   }
 
   body {
-    font-size: 12pt !important;
+    font-size: 10pt !important;
     background: $wrapper-color !important;
   }
 
-  a::after {
-    content: none !important;
-  }
+  // a::after {
+  //   content: none !important;
+  // }
 
   h1, h2, h3, h4, h5, h6, img {
     break-after: avoid !important;
