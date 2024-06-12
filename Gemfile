@@ -14,3 +14,4 @@ gem "webrick", group: :development
 gem "csv"
 gem "base64"
 gem "bigdecimal"
+gem 'jekyll-sass-converter'
