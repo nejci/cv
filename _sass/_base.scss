@@ -75,7 +75,7 @@ small {
       font-size: $large-font-size;
       color: $theme-color;
       margin-bottom: calc(#{$spacing-unit} / 2);
-      padding: calc($spacing-unit / 10) 0;
+      padding: ($spacing-unit * 0.1) 0;
       border-bottom-color: rgba($theme-color, 0.25);
       border-bottom-width: 1px;
 
