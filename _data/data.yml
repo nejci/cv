@@ -355,10 +355,10 @@ skill:
         - LAD in ST
         - PHP
         - Python
-        - R        
+        - R
+        - VHDL       
     - name: Druge digitalne veščine, orodja
       item:
-        - CorelDraw, Inkscape, GIMP
         - Unity 3D
         - Markdown
         - LaTeX
@@ -366,6 +366,8 @@ skill:
         - Trello
         - Slack
         - Notion
+        - video produkcija
+        - "grafično oblikovanje: CorelDraw, Inkscape, GIMP"
 
     - name: Ekipno delo
       item:
