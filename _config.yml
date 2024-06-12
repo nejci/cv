@@ -1,5 +1,5 @@
 # Welcome to Jekyll!
-title: Nejc Ilc - CV
+title: Nejc Ilc
 url: ""
 baseurl: ""
 
@@ -38,4 +38,5 @@ section_background: false   # section title background, 'true' or 'false'
 skill_level_icon: circle # skill rate icon, 'heart', 'star', 'circle' or 'lightbulb'
 link_icon: true             # show link icon, 'true' or 'false'
 site_footer: true           # show site footer, 'true' or 'false'
-google_font: Fira Sans              # name of Google font or 'false'
+google_font: Fira Sans      # name of Google font or 'false'
+favicon: true               # 'true' or 'false' (favicon.png should be in root folder)
