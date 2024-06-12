@@ -1,5 +1,6 @@
+@use 'sass:math';
 
-$spacing-unit: 500px;
+$spacing-unit: 30px;
 
 html {
   scroll-behavior: smooth;
@@ -77,7 +78,7 @@ small {
 
       font-size: $large-font-size;
       color: $theme-color;
-      margin-bottom: $spacing-unit; //calc($spacing-unit / 2);
+      margin-bottom: math.div($spacing-unit, 2); //calc($spacing-unit / 2);
       padding: calc($spacing-unit / 10) 0;
       border-bottom-color: rgba($theme-color, 0.25);
       border-bottom-width: 1px;
