@@ -19,6 +19,14 @@
 
   ul, ol {
     break-before: avoid !important;
+    //break-inside: avoid-page !important;
+  }
+
+  .items{
+    .item {
+      margin-bottom: calc($spacing-unit/2);
+      break-inside: avoid-page !important;
+    }
   }
 
   a, blockquote, pre {

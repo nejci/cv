@@ -19,7 +19,11 @@
       <div class="item">
 
         {%- if item.name %}
-        <div class="row">
+        {%- if item.id %}
+        <div id="{{ item.id}}" class="row">
+        {%- else %}
+        <div id="{{ item.name | slugify}}" class="row">
+        {%- endif %}
           <div class="project-name">
             {%- if item.link %}
             <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>

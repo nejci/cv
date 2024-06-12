@@ -12,7 +12,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
+  margin-top: 2rem;
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
@@ -24,14 +24,15 @@ a {
 
   &:hover,
   &:active {
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: rgba($theme-color, 0.25);
   }
 }
 
 p {
   line-height: $base-line-height;
   margin-top: 0;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 ol, ul {
@@ -93,10 +94,22 @@ small {
       .description {
         margin-bottom: calc($spacing-unit / 2);
       }
+      .columns {
+        columns: 2;
+        column-gap: 2em;
+
+        p {
+          break-inside: avoid-column;
+        }
+      }
 
       .items {
+        flex-wrap: wrap;
         .item {
-          margin-bottom: calc($spacing-unit / 2);
+          
+          &:not(:last-child) {
+            margin-bottom: calc($spacing-unit);
+          }
 
           .row {
             display: flex;
@@ -169,9 +182,9 @@ small {
     justify-content: space-between;
 
     .avatar {
-      max-height: 100px;
+      max-height: 180px;
       border: 0px solid $wrapper-color;
-      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+      //box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     }
 
     .header {
@@ -190,7 +203,7 @@ small {
         font-size: $middle-font-size;
         font-weight: $base-font-weight;
         margin-top: 0;
-        margin-bottom: calc($spacing-unit / 4);
+        margin-bottom: calc($spacing-unit);
       }
 
       .contact {
@@ -268,6 +281,8 @@ small {
         .group {
           display: flex;
           justify-content: space-between;
+          margin-top: $spacing-unit;
+          padding-bottom: $spacing-unit;
 
           &:not(:last-child) {
             border-bottom: 1px dashed rgba($text-third-color, 0.25);
@@ -289,13 +304,38 @@ small {
               color: $text-third-color;
               margin: 0 0.5em;
             }
+            span:last-child::after {
+              content: "\00a0\00a0";
+              margin: 0 0.5em;
+            }
           }
         }
       }
     }
   }
 
-  .language,
+  .language {
+    .section-content {
+      .items {
+        display: flex;
+        flex-direction: column;
+
+        .item {
+          display: flex;
+          align-items: baseline;
+          &:not(:last-child) {
+            margin-bottom: calc($spacing-unit / 2);
+          }
+          
+          small::before {
+            content: "\00a0";
+            font-family: initial;
+          }
+        }
+      }
+    }
+  }
+
   .interest {
     .section-content {
       .items {
@@ -346,4 +386,13 @@ small {
   .description {
     margin: $spacing-unit 0;
   }
+}
+
+.badge {
+  background-color: rgba($theme-color, 0.25); //$background-second-color; 
+  color: $text-color; 
+  padding: 0.25em 0.5em; 
+  border-radius: 0.25em;
+  font-size: 0.8em; 
+  text-transform: uppercase;
 }

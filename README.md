@@ -1,7 +1,6 @@
 # CV
 
-Fork of <a href="https://github.com/tarrex/online-resume">online-resume</a>, *a minimalist Jekyll theme for your resume*.
-
+Fork of [online-resume](https://github.com/tarrex/online-resume), *a minimalist Jekyll theme for your resume*.
 
 ---
 
@@ -29,7 +28,7 @@ Features:
 - Click `pages` in the Code and automation category on the left.
 - Set up github pages in the build and deployment category.
   - find `source`, drop down and select `Deploy from a branch`.
-  - find `branch`, drop down and select `master` branch.
+  - find `branch`, drop down and select `main` branch.
   - Click the `save` button on the right.
 - Wait a little while for the successful building.
 - Open `https://YOUR_GITHUB_USERNAME.github.io/online-resume` in your browser.
@@ -47,7 +46,7 @@ Features:
 
   `source ~/.rvm/scripts/rvm`
 
-- Install [Jekyll][Jekyll]: 
+- Install [Jekyll][Jekyll]:
 
   `gem install jekyll bundler`
 
@@ -61,6 +60,12 @@ Features:
 - `_data/data.yml`: Edit the resume content.
 - `assets/images/profile.png`: Your profile photo.
 - `_config.yml`: Website and theme style settings.
+
+## Jekyll useful commands
+
+- `jekyll serve -l`
+- `jekyll clean`
+- `jekyll build`
 
 ## FAQ
 

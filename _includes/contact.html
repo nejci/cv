@@ -1,24 +1,59 @@
 {%- assign contact = data.contact %}
 {%- if contact %}
 <div class="contact" {% if data.basic.avatar.show != true %}style="justify-content: center;"{% endif %}>
-  {%- if contact.location %}
+  {%- if site.show_personal_data == true and contact.location %}
   <div class="contact-item" title="location">
     <i class="fa-solid fa-location-dot"></i>
     <span>{{ contact.location }}</span>
   </div>
   {%- endif %}
 
-  {%- if contact.email %}
+  {%- if site.show_personal_data == true and contact.email %}
   <div class="contact-item" title="email">
     <i class="fa-solid fa-envelope"></i>
     <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
   </div>
   {%- endif %}
 
-  {%- if contact.phone %}
+  {%- if site.show_personal_data == true and contact.phone %}
   <div class="contact-item" title="phone">
     <i class="fa-solid fa-phone"></i>
     <a href="tel:{{ contact.phone }}">{{ contact.phone }}</a>
+  </div>
+  {%- endif %}
+
+  {%- if site.show_personal_data == true and contact.gender %}
+  <div class="contact-item" title="gender">
+    <i class="fa-solid fa-venus-mars"></i>
+    <span title="gender">{{ contact.gender }}</span>
+  </div>
+  {%- endif %}
+
+  {%- if site.show_personal_data == true and contact.birthday %}
+  <div class="contact-item" title="birthday">
+    <i class="fa-solid fa-cake-candles"></i>
+    <span>{{ contact.birthday }}</span>
+  </div>
+  {%- endif %}
+
+  {%- if site.show_personal_data == true and contact.nationality %}
+  <div class="contact-item" title="nationality">
+    <i class="fa-solid fa-flag"></i>
+    <span>{{ contact.nationality }}</span>
+  </div>
+  {%- endif %}
+
+  {%- if site.show_personal_data == true and contact.visa %}
+  <div class="contact-item" title="passport visa">
+    <i class="fa-solid fa-passport"></i>
+    <span>{{ contact.visa }}</span>
+  </div>
+  {%- endif %}
+
+  {%- if site.show_personal_data == true and contact.drivinglicense %}
+  <div class="contact-item" title="driving license">
+    <i class="fa-solid fa-car"></i>
+    <span>{{ contact.drivinglicense }}</span>
   </div>
   {%- endif %}
 
@@ -26,41 +61,6 @@
   <div class="contact-item" title="website">
     <i class="fa-solid fa-globe"></i>
     <a href="https://{{ contact.website }}" target="_blank">{{ contact.website }}</a>
-  </div>
-  {%- endif %}
-
-  {%- if contact.gender %}
-  <div class="contact-item" title="gender">
-    <i class="fa-solid fa-venus-mars"></i>
-    <span title="gender">{{ contact.gender }}</span>
-  </div>
-  {%- endif %}
-
-  {%- if contact.birthday %}
-  <div class="contact-item" title="birthday">
-    <i class="fa-solid fa-cake-candles"></i>
-    <span>{{ contact.birthday }}</span>
-  </div>
-  {%- endif %}
-
-  {%- if contact.nationality %}
-  <div class="contact-item" title="nationality">
-    <i class="fa-solid fa-flag"></i>
-    <span>{{ contact.nationality }}</span>
-  </div>
-  {%- endif %}
-
-  {%- if contact.visa %}
-  <div class="contact-item" title="passport visa">
-    <i class="fa-solid fa-passport"></i>
-    <span>{{ contact.visa }}</span>
-  </div>
-  {%- endif %}
-
-  {%- if contact.drivinglicense %}
-  <div class="contact-item" title="driving license">
-    <i class="fa-solid fa-car"></i>
-    <span>{{ contact.drivinglicense }}</span>
   </div>
   {%- endif %}
 
@@ -114,14 +114,14 @@
   {%- endif %}
 
   {%- if contact.github %}
-  <div class="contact-item" title="github">
+  <div class="contact-item" title="GitHub">
     <i class="fa-brands fa-github"></i>
     <a href="https://github.com/{{ contact.github }}" target="_blank">{{ contact.github }}</a>
   </div>
   {%- endif %}
 
   {%- if contact.gitlab %}
-  <div class="contact-item" title="gitlab">
+  <div class="contact-item" title="GitLab">
     <i class="fa-brands fa-gitlab"></i>
     <a href="https://gitlab.com/{{ contact.gitlab }}" target="_blank">{{ contact.gitlab }}</a>
   </div>
@@ -135,7 +135,7 @@
   {%- endif %}
 
   {%- if contact.stackoverflow %}
-  <div class="contact-item" title="stackoverflow">
+  <div class="contact-item" title="Stackoverflow">
     <i class="fa-brands fa-stack-overflow"></i>
     <a href="https://stackoverflow.com/users/{{ contact.stackoverflow }}" target="_blank">{{ contact.stackoverflow }}</a>
   </div>
@@ -177,14 +177,14 @@
   {%- endif %}
 
   {%- if contact.googlescholar %}
-  <div class="contact-item" title="google scholar">
+  <div class="contact-item" title="Google Scholar">
     <i class="icon icon-googlescholar"></i>
-    <a href="https://scholar.google.com/citations?user={{ contact.googlescholar }}" target="_blank">{{ contact.googlescholar }}</a>
+    <a href="https://scholar.google.com/citations?user={{ contact.googlescholar }}" target="_blank">Google Scholar</a>
   </div>
   {%- endif %}
 
   {%- if contact.researchgate %}
-  <div class="contact-item" title="researchgate">
+  <div class="contact-item" title="ResearchGate">
     <i class="fa-brands fa-researchgate"></i>
     <a href="https://www.researchgate.net/profile/{{ contact.researchgate }}" target="_blank">{{ contact.researchgate }}</a>
   </div>

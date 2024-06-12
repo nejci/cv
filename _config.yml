@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
-title: Nejc Ilc - CV
-url:
-baseurl:
+title: Nejc Ilc
+url: ""
+baseurl: ""
 
 # Sass setting
 sass:
@@ -9,8 +9,9 @@ sass:
   style:    compressed
 
 # Custom
-lang: en
-open: false                  # show or hide your resume
+lang: sl
+open: true                  # show or hide your resume
+show_personal_data: false   # show personal data (birthday, phone, email), 'true' or 'false'
 allow_search_engines: true  # allow your resume indexing by search engine, 'true' or 'false'
 analytics:
   google:                   # google analytics
@@ -26,14 +27,16 @@ open_graph:
 
 # Style
 text_direction: ltr         # text direction, 'ltr' or 'rtl'
-date_format: "%Y-%m-%d"     # date format
-theme_color: "#1DA1F2"      # your favorite theme color
+date_format: "%Y-%m-%d"   # date format
+theme_color: "#e33333"      # your favorite theme color
 contact_delimiter: "·"      # contact delimiter, '·', '/' or '|'
 section_icon: true          # section title icon, true or false
 section_title: uppercase    # section title style, 'uppercase', 'lowercase', 'capitalize' or 'none'
 section_align: start        # section title align, 'start', 'end' or 'center'
 section_line: dashed        # section title line, 'solid', 'dashed' or 'none'
 section_background: false   # section title background, 'true' or 'false'
-skill_level_icon: lightbulb # skill rate icon, 'heart', 'star', 'circle' or 'lightbulb'
+skill_level_icon: circle # skill rate icon, 'heart', 'star', 'circle' or 'lightbulb'
 link_icon: true             # show link icon, 'true' or 'false'
 site_footer: true           # show site footer, 'true' or 'false'
+google_font: Fira Sans      # name of Google font or 'false'
+favicon: true               # 'true' or 'false' (favicon.png should be in root folder)
