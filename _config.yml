@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 title: Nejc Ilc
-url: ""
-baseurl: ""
+url:
+baseurl:
 
 # Sass setting
 sass:
